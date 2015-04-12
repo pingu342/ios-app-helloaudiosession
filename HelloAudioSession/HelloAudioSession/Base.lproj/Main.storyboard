@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVk-mF-f3K">
+                                <rect key="frame" x="16" y="118" width="30" height="30"/>
+                                <state key="normal" title="play">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JLw-Dh-0Do"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ATh-Cy-xe8">
+                                <rect key="frame" x="16" y="35" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mix with others" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVU-Kf-TEW">
+                                <rect key="frame" x="80" y="40" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXK-Vq-unJ">
+                                <rect key="frame" x="16" y="80" width="153" height="30"/>
+                                <state key="normal" title="activate audio session">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="activateButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MMS-H2-M97"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qd-w6-34g">
+                                <rect key="frame" x="0.0" y="199" width="600" height="401"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T49-R7-OIk">
+                                <rect key="frame" x="86" y="118" width="31" height="30"/>
+                                <state key="normal" title="stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="M2G-S7-0Md"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVW-ex-DAd">
+                                <rect key="frame" x="150" y="118" width="105" height="30"/>
+                                <state key="normal" title="一時停止／再開">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eJa-X4-Bud"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erg-hI-g1i">
+                                <rect key="frame" x="16" y="156" width="110" height="30"/>
+                                <state key="normal" title="play after 30sec">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAfter30secButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="o67-Hf-1uh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TXK-Vq-unJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="15L-8X-c58"/>
+                            <constraint firstItem="ATh-Cy-xe8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="9WV-Wf-Imi"/>
+                            <constraint firstItem="TXK-Vq-unJ" firstAttribute="top" secondItem="ATh-Cy-xe8" secondAttribute="bottom" constant="14" id="9if-Qz-0oH"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="4qd-w6-34g" secondAttribute="bottom" id="Bdp-GH-pde"/>
+                            <constraint firstItem="LVk-mF-f3K" firstAttribute="top" secondItem="TXK-Vq-unJ" secondAttribute="bottom" constant="8" id="HGn-og-TKL"/>
+                            <constraint firstItem="tVW-ex-DAd" firstAttribute="centerY" secondItem="T49-R7-OIk" secondAttribute="centerY" id="Ht1-uR-MbF"/>
+                            <constraint firstItem="4qd-w6-34g" firstAttribute="top" secondItem="erg-hI-g1i" secondAttribute="bottom" constant="13" id="NrW-1t-hNd"/>
+                            <constraint firstItem="tVW-ex-DAd" firstAttribute="leading" secondItem="T49-R7-OIk" secondAttribute="trailing" constant="33" id="Zdr-fx-MPe"/>
+                            <constraint firstAttribute="trailing" secondItem="4qd-w6-34g" secondAttribute="trailing" id="cTP-Oh-26C"/>
+                            <constraint firstItem="ATh-Cy-xe8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="15" id="eby-fh-86e"/>
+                            <constraint firstItem="erg-hI-g1i" firstAttribute="top" secondItem="LVk-mF-f3K" secondAttribute="bottom" constant="8" id="j0b-ib-P06"/>
+                            <constraint firstItem="MVU-Kf-TEW" firstAttribute="leading" secondItem="ATh-Cy-xe8" secondAttribute="trailing" constant="15" id="lwV-cd-1dS"/>
+                            <constraint firstItem="T49-R7-OIk" firstAttribute="leading" secondItem="LVk-mF-f3K" secondAttribute="trailing" constant="40" id="nWK-7d-oDH"/>
+                            <constraint firstItem="4qd-w6-34g" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="nmF-Wg-zCH"/>
+                            <constraint firstItem="LVk-mF-f3K" firstAttribute="centerY" secondItem="T49-R7-OIk" secondAttribute="centerY" id="sy1-c6-J9N"/>
+                            <constraint firstItem="ATh-Cy-xe8" firstAttribute="centerY" secondItem="MVU-Kf-TEW" secondAttribute="centerY" id="tEp-Xe-sQU"/>
+                            <constraint firstItem="LVk-mF-f3K" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="vSl-EW-SUc"/>
+                            <constraint firstItem="erg-hI-g1i" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="zex-T9-CWy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logTextView" destination="4qd-w6-34g" id="Ba4-Pf-K05"/>
+                        <outlet property="mixWithOthersSwitch" destination="ATh-Cy-xe8" id="the-dG-iz4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

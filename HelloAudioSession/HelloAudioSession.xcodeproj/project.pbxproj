@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D06B4C541AD2298600C9FCAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D06B4C531AD2298600C9FCAD /* main.m */; };
+		D06B4C571AD2298600C9FCAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D06B4C561AD2298600C9FCAD /* AppDelegate.m */; };
+		D06B4C5A1AD2298600C9FCAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06B4C591AD2298600C9FCAD /* ViewController.m */; };
+		D06B4C5D1AD2298600C9FCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06B4C5B1AD2298600C9FCAD /* Main.storyboard */; };
+		D06B4C5F1AD2298600C9FCAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06B4C5E1AD2298600C9FCAD /* Images.xcassets */; };
+		D06B4C621AD2298600C9FCAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D06B4C601AD2298600C9FCAD /* LaunchScreen.xib */; };
+		D06B4C6E1AD2298600C9FCAD /* HelloAudioSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06B4C6D1AD2298600C9FCAD /* HelloAudioSessionTests.m */; };
+		D06B4C791AD229C200C9FCAD /* AudioSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D06B4C781AD229C200C9FCAD /* AudioSessionManager.m */; };
+		D070FA9E1ADA44C20048F572 /* Google Moogでドラクエの序曲弾いてみた.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D070FA9D1ADA44C10048F572 /* Google Moogでドラクエの序曲弾いてみた.mp3 */; };
+		D070FAA11ADA4C210048F572 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D070FAA01ADA4C200048F572 /* Log.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D06B4C681AD2298600C9FCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06B4C461AD2298600C9FCAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06B4C4D1AD2298600C9FCAD;
+			remoteInfo = HelloAudioSession;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D06B4C4E1AD2298600C9FCAD /* HelloAudioSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAudioSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06B4C521AD2298600C9FCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06B4C531AD2298600C9FCAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D06B4C551AD2298600C9FCAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D06B4C561AD2298600C9FCAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D06B4C581AD2298600C9FCAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D06B4C591AD2298600C9FCAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D06B4C5C1AD2298600C9FCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06B4C5E1AD2298600C9FCAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D06B4C611AD2298600C9FCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D06B4C671AD2298600C9FCAD /* HelloAudioSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAudioSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06B4C6C1AD2298600C9FCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06B4C6D1AD2298600C9FCAD /* HelloAudioSessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAudioSessionTests.m; sourceTree = "<group>"; };
+		D06B4C771AD229C200C9FCAD /* AudioSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSessionManager.h; sourceTree = "<group>"; };
+		D06B4C781AD229C200C9FCAD /* AudioSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSessionManager.m; sourceTree = "<group>"; };
+		D070FA9D1ADA44C10048F572 /* Google Moogでドラクエの序曲弾いてみた.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Google Moogでドラクエの序曲弾いてみた.mp3"; sourceTree = "<group>"; };
+		D070FA9F1ADA4C200048F572 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		D070FAA01ADA4C200048F572 /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06B4C4B1AD2298600C9FCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06B4C641AD2298600C9FCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06B4C451AD2298600C9FCAD = {
+			isa = PBXGroup;
+			children = (
+				D06B4C501AD2298600C9FCAD /* HelloAudioSession */,
+				D06B4C6A1AD2298600C9FCAD /* HelloAudioSessionTests */,
+				D06B4C4F1AD2298600C9FCAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D06B4C4F1AD2298600C9FCAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06B4C4E1AD2298600C9FCAD /* HelloAudioSession.app */,
+				D06B4C671AD2298600C9FCAD /* HelloAudioSessionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06B4C501AD2298600C9FCAD /* HelloAudioSession */ = {
+			isa = PBXGroup;
+			children = (
+				D070FA9D1ADA44C10048F572 /* Google Moogでドラクエの序曲弾いてみた.mp3 */,
+				D06B4C551AD2298600C9FCAD /* AppDelegate.h */,
+				D06B4C561AD2298600C9FCAD /* AppDelegate.m */,
+				D06B4C581AD2298600C9FCAD /* ViewController.h */,
+				D06B4C591AD2298600C9FCAD /* ViewController.m */,
+				D06B4C5B1AD2298600C9FCAD /* Main.storyboard */,
+				D06B4C5E1AD2298600C9FCAD /* Images.xcassets */,
+				D06B4C601AD2298600C9FCAD /* LaunchScreen.xib */,
+				D06B4C511AD2298600C9FCAD /* Supporting Files */,
+				D06B4C771AD229C200C9FCAD /* AudioSessionManager.h */,
+				D06B4C781AD229C200C9FCAD /* AudioSessionManager.m */,
+				D070FA9F1ADA4C200048F572 /* Log.h */,
+				D070FAA01ADA4C200048F572 /* Log.m */,
+			);
+			path = HelloAudioSession;
+			sourceTree = "<group>";
+		};
+		D06B4C511AD2298600C9FCAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D06B4C521AD2298600C9FCAD /* Info.plist */,
+				D06B4C531AD2298600C9FCAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D06B4C6A1AD2298600C9FCAD /* HelloAudioSessionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D06B4C6D1AD2298600C9FCAD /* HelloAudioSessionTests.m */,
+				D06B4C6B1AD2298600C9FCAD /* Supporting Files */,
+			);
+			path = HelloAudioSessionTests;
+			sourceTree = "<group>";
+		};
+		D06B4C6B1AD2298600C9FCAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D06B4C6C1AD2298600C9FCAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06B4C4D1AD2298600C9FCAD /* HelloAudioSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06B4C711AD2298600C9FCAD /* Build configuration list for PBXNativeTarget "HelloAudioSession" */;
+			buildPhases = (
+				D06B4C4A1AD2298600C9FCAD /* Sources */,
+				D06B4C4B1AD2298600C9FCAD /* Frameworks */,
+				D06B4C4C1AD2298600C9FCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAudioSession;
+			productName = HelloAudioSession;
+			productReference = D06B4C4E1AD2298600C9FCAD /* HelloAudioSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D06B4C661AD2298600C9FCAD /* HelloAudioSessionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06B4C741AD2298600C9FCAD /* Build configuration list for PBXNativeTarget "HelloAudioSessionTests" */;
+			buildPhases = (
+				D06B4C631AD2298600C9FCAD /* Sources */,
+				D06B4C641AD2298600C9FCAD /* Frameworks */,
+				D06B4C651AD2298600C9FCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06B4C691AD2298600C9FCAD /* PBXTargetDependency */,
+			);
+			name = HelloAudioSessionTests;
+			productName = HelloAudioSessionTests;
+			productReference = D06B4C671AD2298600C9FCAD /* HelloAudioSessionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06B4C461AD2298600C9FCAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = jp.saka;
+				TargetAttributes = {
+					D06B4C4D1AD2298600C9FCAD = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = B87G722RXC;
+					};
+					D06B4C661AD2298600C9FCAD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D06B4C4D1AD2298600C9FCAD;
+					};
+				};
+			};
+			buildConfigurationList = D06B4C491AD2298600C9FCAD /* Build configuration list for PBXProject "HelloAudioSession" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06B4C451AD2298600C9FCAD;
+			productRefGroup = D06B4C4F1AD2298600C9FCAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06B4C4D1AD2298600C9FCAD /* HelloAudioSession */,
+				D06B4C661AD2298600C9FCAD /* HelloAudioSessionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06B4C4C1AD2298600C9FCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D070FA9E1ADA44C20048F572 /* Google Moogでドラクエの序曲弾いてみた.mp3 in Resources */,
+				D06B4C5D1AD2298600C9FCAD /* Main.storyboard in Resources */,
+				D06B4C621AD2298600C9FCAD /* LaunchScreen.xib in Resources */,
+				D06B4C5F1AD2298600C9FCAD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06B4C651AD2298600C9FCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06B4C4A1AD2298600C9FCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06B4C5A1AD2298600C9FCAD /* ViewController.m in Sources */,
+				D070FAA11ADA4C210048F572 /* Log.m in Sources */,
+				D06B4C791AD229C200C9FCAD /* AudioSessionManager.m in Sources */,
+				D06B4C571AD2298600C9FCAD /* AppDelegate.m in Sources */,
+				D06B4C541AD2298600C9FCAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06B4C631AD2298600C9FCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06B4C6E1AD2298600C9FCAD /* HelloAudioSessionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D06B4C691AD2298600C9FCAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06B4C4D1AD2298600C9FCAD /* HelloAudioSession */;
+			targetProxy = D06B4C681AD2298600C9FCAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D06B4C5B1AD2298600C9FCAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06B4C5C1AD2298600C9FCAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06B4C601AD2298600C9FCAD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06B4C611AD2298600C9FCAD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D06B4C6F1AD2298600C9FCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D06B4C701AD2298600C9FCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06B4C721AD2298600C9FCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HelloAudioSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D06B4C731AD2298600C9FCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HelloAudioSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D06B4C751AD2298600C9FCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloAudioSessionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAudioSession.app/HelloAudioSession";
+			};
+			name = Debug;
+		};
+		D06B4C761AD2298600C9FCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloAudioSessionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAudioSession.app/HelloAudioSession";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06B4C491AD2298600C9FCAD /* Build configuration list for PBXProject "HelloAudioSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06B4C6F1AD2298600C9FCAD /* Debug */,
+				D06B4C701AD2298600C9FCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06B4C711AD2298600C9FCAD /* Build configuration list for PBXNativeTarget "HelloAudioSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06B4C721AD2298600C9FCAD /* Debug */,
+				D06B4C731AD2298600C9FCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06B4C741AD2298600C9FCAD /* Build configuration list for PBXNativeTarget "HelloAudioSessionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06B4C751AD2298600C9FCAD /* Debug */,
+				D06B4C761AD2298600C9FCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06B4C461AD2298600C9FCAD /* Project object */;
+}
