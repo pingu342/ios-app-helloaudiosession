@@ -50,6 +50,8 @@ static Log *sharedLog_;
 }
 
 + (void)logd:(NSString *)message {
+	NSLog(@"%@", message);
+	
 	Log *log = [Log sharedLog];
 	[log.text appendFormat:@"%@\n", message];
 	

@@ -7,10 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "Log.h"
 
 @interface AppDelegate ()
 
 @property (nonatomic) UIBackgroundTaskIdentifier taskid;
+@property (nonatomic) NSTimer *timer;
 
 @end
 
@@ -36,11 +38,14 @@
 		NSLog(@"%s ExpirationHandler", __FUNCTION__);
 		[[UIApplication sharedApplication] endBackgroundTask:self.taskid];
 	}];
+	self.timer = [NSTimer timerWithTimeInterval:1.0 target:self selector:@selector(timer:) userInfo:nil repeats:YES];
+	[[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
 	// Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 	[[UIApplication sharedApplication] endBackgroundTask:self.taskid];
+	[self.timer invalidate];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
@@ -49,6 +54,10 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
 	// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)timer:(id)timer {
+	[Log logd:[NSString stringWithFormat:@"backgroundTimeRemaining=%1.2e", [[UIApplication sharedApplication] backgroundTimeRemaining]]];
 }
 
 @end

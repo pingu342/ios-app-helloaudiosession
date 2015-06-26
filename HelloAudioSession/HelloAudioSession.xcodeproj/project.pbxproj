@@ -181,7 +181,6 @@
 				TargetAttributes = {
 					D06B4C4D1AD2298600C9FCAD = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = B87G722RXC;
 					};
 					D06B4C661AD2298600C9FCAD = {
 						CreatedOnToolsVersion = 6.2;
